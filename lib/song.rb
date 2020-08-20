@@ -42,6 +42,7 @@ class Song
   end
   
   def self.alphabetical
+<<<<<<< HEAD
     Song.all.sort_by{|song| song.name}
   end
   
@@ -72,4 +73,10 @@ class Song
     self.all.clear
   end
   
+=======
+    new_array = Song.all.sort
+    new_array
+  end
+
+>>>>>>> 3ea1c6eb5fddab368ae549b5beecc1373b84af08
 end
